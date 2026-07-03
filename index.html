@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IELTS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>IELTS Calculator</h1>
+
+    <input id="listening" type="number" min="0" max="40"
+    placeholder="Listening correct answers">
+
+    <br><br>
+
+    <input id="reading" type="number" min="0" max="40"
+    placeholder="Reading correct answers">
+
+    <br><br>
+
+    <input id="writing" type="number" min="0" max="9" step="0.5"
+    placeholder="Writing band score">
+
+    <br><br>
+
+    <input id="speaking" type="number" min="0" max="9" step="0.5"
+    placeholder="Speaking band score">
+
+    <br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <h2 id="result"></h2>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
