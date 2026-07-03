@@ -7,33 +7,33 @@
 
 <body>
 
-    <h1>IELTS Calculator</h1>
+<h1>IELTS Calculator</h1>
 
-    <input id="listening" type="number" min="0" max="40"
-    placeholder="Listening correct answers">
+<!-- CLEAR ICON -->
+<button onclick="clearAll()" class="icon-clear">🗑</button>
 
-    <br><br>
+<input id="listening" type="number" min="0" max="40" placeholder="Listening correct answers">
+<br>
 
-    <input id="reading" type="number" min="0" max="40"
-    placeholder="Reading correct answers">
+<input id="reading" type="number" min="0" max="40" placeholder="Reading correct answers">
+<br>
 
-    <br><br>
+<input id="writing" type="number" min="0" max="9" step="0.5" placeholder="Writing band score">
+<br>
 
-    <input id="writing" type="number" min="0" max="9" step="0.5"
-    placeholder="Writing band score">
+<input id="speaking" type="number" min="0" max="9" step="0.5" placeholder="Speaking band score">
+<br>
 
-    <br><br>
+<button onclick="calculate()">Calculate</button>
 
-    <input id="speaking" type="number" min="0" max="9" step="0.5"
-    placeholder="Speaking band score">
+<h2 id="result"></h2>
 
-    <br><br>
+<!-- FOOTER -->
+<div class="footer">
+    by Abdurrouf
+</div>
 
-    <button onclick="calculate()">Calculate</button>
-
-    <h2 id="result"></h2>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
